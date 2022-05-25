@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap&#39;');
+
+body {
+    font-family: 'Nunito', 'sans-serif';
+}
+
+@media (min-width:300px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3%;
+        min-height: 30vh;
+        justify-content: center;
+    }
+
+    /* 
+    ^= Starts with ...
+    *= Contains
+    $= 
+    */
+    .call-action {
+        text-align: center;
+        background-image: url(../img/dashboard-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10%;
+    }
+
+    .call-action p {
+        padding-top: 10%;
+    }
+
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20% 5%;
+    }
+
+    .about h2 {
+        width: fit-content;
+        border-bottom: 1px solid cornflowerblue;
+        padding-bottom: 5%;
+    }
+
+    .about div {
+        padding-top: 10%;
+    }
+
+    .about div>figure {
+        padding: 10%;
+    }
+
+    .about p {
+        padding-top: 5%;
+    }
+
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: cornflowerblue;
+        padding: 10% 5%;
+        color: whitesmoke;
+        min-height: 30vh;
+    }
+
+    .testimonials h2 {
+        border-bottom: 1px solid whitesmoke;
+        padding-bottom: 5%;
+    }
+
+    .testimonials>p {
+        text-align: center;
+    }
+
+    .testimonials h2 footer>div,
+    footer>span {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer [class^="fa-"] {
+        text-decoration: none;
+        color: gray;
+        font-size: 24px;
+    }
+
+    footer a {
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+}
