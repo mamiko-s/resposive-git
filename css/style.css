@@ -419,6 +419,19 @@ $=
 }
 
 @media (min-width: 1000px) {
+    .computer {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .computer>article {
+        padding: 1%;
+        width: 45%;
+    }
+
+    .computer>article:nth-child(2) {
+        align-items: flex-start;
+    }
 
     .services h2 {
         width: 100%;
