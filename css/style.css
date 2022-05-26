@@ -250,7 +250,6 @@ $=
         padding-top: 5%;
     }
 
-
     .testimonials {
         display: flex;
         flex-direction: column;
@@ -291,6 +290,15 @@ $=
 }
 
 @media (min-width: 600px) {
+
+    .computer article {
+        align-items: center;
+    }
+
+    .computer div {
+        width: 70%;
+        justify-content: center;
+    }
 
     .services {
         padding-top: 5%;
