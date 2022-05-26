@@ -419,6 +419,53 @@ $=
 }
 
 @media (min-width: 1000px) {
+
+    header>article:nth-child(1) {
+        width: 100%;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    nav>ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav li {
+        display: flex;
+        width: 100%;
+        list-style: none;
+    }
+
+    nav a {
+        width: 100%;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    nav a:hover {
+        background-color: darkslateblue;
+        border: 1px solid whitesmoke;
+        padding: 3%;
+    }
+
+    details {
+        display: none;
+    }
+
+    .features {
+        padding-bottom: 0%;
+    }
+
+    .features article {
+        flex-wrap: unset;
+    }
+
     .computer {
         flex-direction: row;
         justify-content: center;
@@ -457,7 +504,8 @@ $=
     }
 
     .about>h2,
-    .call-action>h2 {
+    .call-action>h2,
+    .features>h2 {
         width: fit-content;
         border-bottom: 2px solid cornflowerblue;
         font-size: 50px;
