@@ -289,3 +289,65 @@ $=
         text-decoration: none;
     }
 }
+
+@media (min-width: 600px) {
+
+    .call-action>h2 {
+        font-size: 36px;
+    }
+
+    .call-action>p {
+        font-size: 24px;
+    }
+
+    .about {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .about>h2 {
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+
+    .about div>figure {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .about figcaption {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 24px;
+    }
+
+    .about img {
+        width: 80%;
+    }
+
+    .testimonials {
+        min-height: 15vh;
+    }
+
+    .testimonials>h2 {
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+
+    .testimonials>p {
+        font-size: 20px;
+        padding-top: 2%;
+    }
+
+    footer {
+        min-height: 15vh;
+    }
+
+    footer>div,
+    footer>span {
+        justify-content: center;
+        column-gap: 15px;
+    }
+}
